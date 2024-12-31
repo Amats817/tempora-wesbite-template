@@ -1,0 +1,163 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    background-color: var(--color-tempora);
+    position: relative;
+}
+
+.header-content {
+    text-align: left;
+    width: 40%;
+    z-index: 2; 
+}
+
+.header-image {
+    width: 60%;
+    position: relative;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.header-content h1 {
+    font-size: 3.5em; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff; 
+}
+
+.header-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.header-content p {
+    font-size: 1.5em; 
+    margin-bottom: 20px;
+    color: var(--color-primary-variant); 
+}
+
+.header-content button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px 30px; 
+    font-size: 1.2em; 
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: var(--transition); 
+}
+
+.header-content button:hover {
+    background-color: #444444;
+}
+
+.download-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.download-buttons .alternative-download{
+    background-color: rgb(0,131,45);
+}
+
+.download-buttons .alternative-download:hover{
+    background-color: rgb(88, 141, 106);
+}
+
+.osu-line {
+    display: flex; 
+    align-items: center; 
+}
+
+.osu-line p {
+    margin-right: 10px; 
+}
+
+.osu-logo {
+    width: 30px; 
+    height: 30px; 
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-container {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .header-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header-image img {
+        border-radius: 5px;
+    }
+
+    .download-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .osu-line {
+        justify-content: center; 
+        text-align: center; 
+        margin-top: 20px; 
+    }
+
+    .osu-line p {
+        margin-right: 10px;
+    }
+
+    .osu-logo {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        padding: 20px;
+    }
+
+    .header-content h1 {
+        font-size: 2.5em;
+    }
+
+    .header-content h2 {
+        font-size: 1.8em;
+    }
+
+    .header-content p {
+        font-size: 1.2em;
+    }
+
+    .download-buttons button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .osu-logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .osu-line {
+        justify-content: center;
+        text-align: center; 
+    }
+}

@@ -1,0 +1,34 @@
+.tutorial {
+    margin: 40px;
+    text-align: center;
+}
+
+.tutorial h1 {
+    color: rgb(20, 30, 39);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .tutorial {
+        margin: 20px; 
+    }
+
+    .tutorial iframe {
+        width: 100%;
+        max-width: 560px;  
+        height: 315px;
+        margin: 0 auto; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tutorial {
+        margin: 10px;  
+    }
+
+    .tutorial iframe {
+        width: 100%;
+        height: 200px; 
+        margin: 0 auto;  
+    }
+}
