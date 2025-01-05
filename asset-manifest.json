@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tempora-wesbite-template/static/css/main.4aca021a.css",
+    "main.css": "/tempora-wesbite-template/static/css/main.bdc2eeca.css",
     "main.js": "/tempora-wesbite-template/static/js/main.999e59ce.js",
     "static/media/tempora-bg.jpg": "/tempora-wesbite-template/static/media/tempora-bg.5965ba096c0dedc0eeae.jpg",
     "static/media/osulogo.png": "/tempora-wesbite-template/static/media/osulogo.72662af29a6e49ebd21d.png",
     "index.html": "/tempora-wesbite-template/index.html",
-    "main.4aca021a.css.map": "/tempora-wesbite-template/static/css/main.4aca021a.css.map",
+    "main.bdc2eeca.css.map": "/tempora-wesbite-template/static/css/main.bdc2eeca.css.map",
     "main.999e59ce.js.map": "/tempora-wesbite-template/static/js/main.999e59ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aca021a.css",
+    "static/css/main.bdc2eeca.css",
     "static/js/main.999e59ce.js"
   ]
 }
